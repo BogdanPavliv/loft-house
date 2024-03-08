@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoftHouse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <meta name="description" content="LoftHouse — Житловий комплекс в історичному центрі"/>
+    <meta name="keywords" content="житло" />
+    <meta property="og:title" content="LoftHouse — Житловий комплекс в історичному центрі"/>
+    <meta property="og:description" content="LoftHouse — Житловий комплекс в історичному центрі"/>
+    <meta property="og:image" content="./images/header/header-bg.jpg" />
+
+    <link rel="icon" sizes="150x150" href="./images/favicon/mstile-150x150.png">
+    <link rel="icon" sizes="96x96" href="./images/favicon/android-chrome-96x96.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header lazy" data-src="./images/header/header-bg.webp" data-src-replace-webp="./images/header/header-bg.jpg">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+
+                    <a href="#!">
+                        <img src="./images/logo.svg" alt="LoftHouse">
+                    </a>
+
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a href="#!">Про комплекс</a></li>
+                                <li><a href="#!">Район</a></li>
+                                <li><a href="#!">Каталог квартир</a></li>
+                                <li><a href="#!">Іпотека</a></li>
+                                <li><a href="#!">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header__nav-btn">
+                        <button class="nav-icon-btn">
+                            <div class="nav-icon"></div>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="header__title">
+                Житловий комплекс <br>
+                в історичному центрі
+                <a href="#benefits">
+                    <img
+                        src="./images/header/mouse.svg"
+                        alt="Scroll next"
+                        class="header__title-icon"
+                    >
+                </a>
+            </h1>
+        </div>
+
+        <div class="header__footer">
+            <div class="text-right">
+                <a href="#section-map" class="info info--map">Русанівська наб. 10-15</a>
+            </div>
+            <a href="tel:+80501234567" class="info info--tel">8 (050) 123-45-67</a>
+        </div>
+    </header>
+
+<main>
+  <section class="benefits">
+      <h2 class="visually-hidden">Переваги ЖК</h2>
+
+      <div class="container container--sm">
+          <div class="benefits__row">
+
+              <div class="benefits__item">
+                  <img class="benefits__item-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/benefits/bench.svg" alt="Bench" width="80" height="80">
+                  <p class="benefits__item-text">Поруч історичні парки&nbsp;та&nbsp;сквери</p>
+              </div>
+
+              <div class="benefits__item">
+                  <img class="benefits__item-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/benefits/building.svg" alt="Building" width="80" height="80">
+                  <p class="benefits__item-text">Повністю облаштований</p>
+              </div>
+
+              <div class="benefits__item">
+                  <img class="benefits__item-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/benefits/fountain.svg" alt="Fountain" width="80" height="80">
+                  <p class="benefits__item-text">10 фонтанів на території</p>
+              </div>
+
+              <div class="benefits__item">
+                  <img class="benefits__item-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/benefits/bicycle.svg" alt="Bicycle" width="80" height="80">
+                  <p class="benefits__item-text">6 км велодоріжок</p>
+              </div>
+
+          </div>
+      </div>
+
+  </section>
+
+  <section class="apartments">
+      <div class="container">
+
+          <div class="apartments__title">
+              <h2 class="title-2">Наші квартири</h2>
+          </div>
+
+          <div class="apartments__cards">
+
+              <a href="#!" class="card">
+                <picture>
+                    <source type="image/webp" srcset=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/cards/01.webp"/>
+                    <img class="card__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/cards/01.jpg" alt="Пентхаус “Loft Олімп”">
+                </picture>
+                <h3 class="card__title">Пентхаус “Loft Олімп”</h3>
+              </a>
+
+              <a href="#!" class="card">
+                <picture>
+                    <source type="image/webp" srcset=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/cards/02.webp"/>
+                    <img class="card__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/cards/02.jpg" alt="Апартаменти “Nice Loft”">
+                </picture>
+                <h3 class="card__title">Апартаменти “Nice Loft”</h3>
+              </a>
+
+              <a href="#!" class="card">
+                <picture>
+                    <source type="image/webp" srcset=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/cards/03.webp"/>
+                    <img class="card__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/cards/03.jpg" alt="Апартаменти “Loft Studio”">
+                </picture>
+                <h3 class="card__title">Апартаменти “Loft Studio”</h3>
+              </a>
+
+              <a href="#!" class="card">
+                <picture>
+                    <source type="image/webp" srcset=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/cards/04.webp"/>
+                    <img class="card__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/cards/04.jpg" alt="Loft квартира “Престиж”">
+                </picture>
+                <h3 class="card__title">Loft квартира “Престиж”</h3>
+              </a>
+
+          </div>
+      </div>
+  </section>
+
+  <section class="cta">
+      <div class="container">
+          <div class="cta__title">
+              <h2 class="title-2">Хочете подивитися?</h2>
+          </div>
+          <div class="cta__wrapper">
+
+              <div class="cta__text">
+                  <p>ЖК LoftHouse - це проект бізнес-класу, розташований в центрі міста, на Русанівській набережній 10-15. Комплекс пропонує своїм мешканцям квартири площею від 40 до 170 кв. м. У будівлі буде три секції, в яких розміститься лише 56 квартир.</p>
+              </div>
+
+              <form action="" class="cta__form form">
+                  <input type="text" class="form__input" placeholder="Ваше ім'я" autocomplete="off">
+                  <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+                  <p class="form__privacy form__privacy--bottom">
+                      *Ми нікому не передаємо ваші дані. <br>І не зберігаємо ваш номер у базу.
+                  </p>
+
+                  <button type="submit" class="form__btn">Подивитись район</button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+  <section class="video">
+      <h2 class="visually-hidden">Відео про ЖК Loft House</h2>
+      <div class="container">
+
+          <a href="https://www.youtube.com/embed/7-cc1AfKhdo" data-youtubeLightbox class="video__link">
+              <img class="video__icon lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/video/play.svg" alt="Video icon" width="100" height="100">
+              <picture>
+                <source type="image/webp" srcset=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/video/video-img.webp"/>
+                <img class="video__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/video/video-img.jpg" alt="Video image">
+              </picture>
+          </a>
+      </div>
+  </section>
+
+  <section class="section-map">
+      <div class="container">
+          <div class="section-map__title">
+              <h2 class="title-2">Район на карті</h2>
+          </div>
+          <div class="section-map__map">
+              <div class="map" id="map"></div>
+          </div>
+      </div>
+  </section>
+
+  <section class="feedback">
+      <div class="container">
+          <div class="feedback__title">
+              <h2 class="title-2">Є питання?</h2>
+          </div>
+          <form class="feedback__form form">
+
+              <p class="form__privacy form__privacy--bottom">
+                  *Ми нікому не передаємо ваші дані. <br>І не зберігаємо ваш номер у базу.
+              </p>
+
+              <input type="text" class="form__input" placeholder="Ваше ім'я" autocomplete="off">
+              <input data-tel-input type="text" class="form__input" placeholder="Ваш телефон" autocomplete="off">
+
+              <button type="submit" class="form__btn">Подивитись район</button>
+          </form>
+      </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer__grid">
+
+            <div class="footer__logo">
+
+                <a href="#!">
+
+                    <img src="./images/logo.svg" alt="LoftHouse">
+
+                </a>
+
+            </div>
+
+            <div class="footer__nav">
+
+                <nav>
+
+                    <ul class="footer__nav-list">
+
+                        <li><a href="#!">Про комплекс</a></li>
+
+                        <li><a href="#!">Район</a></li>
+
+                        <li><a href="#!">Каталог квартир</a></li>
+
+                        <li><a href="#!">Іпотека</a></li>
+
+                        <li><a href="#!">Контакти</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="footer__nav">
+
+                 <nav>
+
+                    <ul class="footer__nav-list">
+
+                        <li><a href="#!">Поселення та переїзд</a></li>
+
+                        <li><a href="#!">Сервісні послуги</a></li>
+
+                        <li><a href="#!">Екологічна стійкість</a></li>
+
+                        <li><a href="#!">Інвестиційні можливості</a></li>
+
+                        <li><a href="#!">Програма лояльності</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="footer__address">
+
+                <ul class="footer__nav-list">
+
+                    <li>Адреса: Русанівська наб. 10-15</li>
+
+                    <li>Телефон: <a href="tel:+80501234567">8 (050) 123-45-67</a></li>
+
+                    <li>Відділ продажу: 10:00 - 20:00</li>
+
+                    <li>E-mail: <a class="link-bold" href="mailto:vip@lofthouse.ua">vip@lofthouse.ua</a></li>
+
+                </ul>
+
+                <ul class="footer__socials">
+
+                    <li><a href="https://www.youtube.com/" target="_blank"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/socials/youtube.svg" alt="Youtube" width="31" height="20"></a></li>
+
+                    <li><a href="https://www.tiktok.com/" target="_blank"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/socials/tiktok.svg" alt="Tiktok" width="20" height="20"></a></li>
+
+                    <li><a href="https://www.facebook.com/" target="_blank"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/socials/facebook.svg" alt="Facebook" width="22" height="20"></a></li>
+
+                    <li><a href="https://www.instagram.com/" target="_blank"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/socials/instagram.svg" alt="Instagram" width="23" height="20"></a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- YouTube LightBox -->
+
+<div id="youtubelightbox" class="youtubelightbox">
+
+    <div class="youtubelightbox__centeredchild">
+
+        <div class="youtubelightbox__videowrapper">
+
+            <div id="youtubelightboxPlayer"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script src="./js/main.min.js"></script>
+
+
+
+</body>
+
+</html>
