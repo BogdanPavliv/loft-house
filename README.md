@@ -1,4 +1,4 @@
-## Верстка сайту Elegant Store
+## Верстка сайту Loft House
 
 - HTML,
 - SCSS,
