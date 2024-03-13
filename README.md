@@ -7,9 +7,10 @@
 - html,
 - scss,
 - gulp,
-- js
-- flex boxes
-- grid
+- js,
+- php,
+- flex boxes,
+- grid,
 - BEM naming
 
 Documentation and usage examples inside.
