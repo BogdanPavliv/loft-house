@@ -10,7 +10,7 @@
 - js
 - flex boxes
 - grid
-- BEM naming
+- BEM 
 
 Documentation and usage examples inside.
 
